@@ -1,0 +1,12 @@
+2021-07-28T19:58:39.137Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T19:58:41.965Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T20:00:00.286Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T20:00:03.084Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T20:00:23.840Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T20:00:45.366Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.0.246.41:27017
+2021-07-28T20:01:26.985Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.0.246.41:27017
+2021-07-28T20:01:29.532Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T20:01:33.000Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T20:01:34.395Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T20:01:49.409Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T20:01:51.248Z [32minfo[39m: 	Successfully connected to database
