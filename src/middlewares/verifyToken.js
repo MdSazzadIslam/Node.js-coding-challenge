@@ -11,7 +11,7 @@ const verifyToken = async (req, res, next) => {
 
   const token = bearerHeader.split(" ")[1];
 
-  await jwt.verify(token, process.env.JWT_SECRECT_KEY, (err, decoded) => {
+  await jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, decoded) => {
     if (err)
       return res
         .status(500)

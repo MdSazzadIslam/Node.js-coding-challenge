@@ -1,6 +1,8 @@
 "use strict";
 const logger = require("../helpers/logger");
 const User = require("../models/userMode");
+const bcrypt = require("bcrypt");
+const generateToken = require("../helpers/generateToken");
 require("dotenv").config();
 
 const getUsers = (req, res) => {
@@ -31,12 +33,12 @@ const getUsers = (req, res) => {
     })
     .catch((err) => {
       logger.error(
-        "[get/getUsers]Error occured while retriving all the records",
+        "[get/getUsers]Error occured while retriving all the records ",
         err.message
       );
       res.status(500).json({
         status: false,
-        message: "Error occured while retriving all the records" + err.message,
+        message: "Error occured while retriving all the records " + err.message,
       });
     });
 };
@@ -64,69 +66,96 @@ const getUser = (req, res) => {
     })
     .catch((err) => {
       logger.error(
-        "[get/getUser/:id]Error occured while retriving the record",
+        "[get/getUser/:id]Error occured while retriving the record ",
         err.message
       );
       res.status(500).json({
         status: "false",
-        message: "Error occured while retriving the record" + err.message,
+        message: "Error occured while retriving the record " + err.message,
       });
     });
 };
 
 const login = (req, res) => {
-  const user = new User({
-    firstName: req.body.firstName,
-    lastName: req.body.lastName,
-    email: req.body.email,
-    password: req.body.password,
-  });
-
-  user
-    .save()
-    .then((data) => {
-      res.status(201).json({
-        status: "true",
-        message: "Record saved successfully",
-        data: data,
-      });
+  const { email, password } = req.body;
+  User.findOne({ email: email })
+    .then((user) => {
+      if (!user) {
+        logger.error(`[post/login]Invalid email  ${email}`);
+        return res.status(422).json({
+          status: "false",
+          message: "Invalid email",
+        });
+      }
+      bcrypt
+        .compare(password, user.password) //comparing password
+        .then((doMatch) => {
+          if (doMatch) {
+            const token = generateToken(user._id, user.email); //generating token
+            if (token) {
+              return res.status(200).json({
+                success: "true",
+                msg: "Login successfull",
+                _id: user._id,
+                firstName: user.firstName,
+                lastName: user.lastName,
+                email: user.email,
+                varified: user.varified,
+                token: token,
+              });
+            }
+          }
+          logger.error(`[post/login]Invalid email or password ${email}`);
+          return res.status(422).json({
+            status: "false",
+            message: "Invalid email or password",
+          });
+        })
+        .catch((err) => {
+          logger.error("[post/login]Error occured while login ", err.message);
+          return res.status(500).json({
+            status: "false",
+            message: "Error occured while login " + err.message,
+          });
+        });
     })
     .catch((err) => {
-      logger.error(
-        "[post/createUser]Error occured while saving the record",
-        err.message
-      );
+      logger.error("[post/login]Error occured while login ", err.message);
       res.status(500).json({
         status: "false",
-        message: "Error occured while saving the record" + err.message,
+        message: "Error occured while login " + err.message,
       });
     });
 };
 
 const registration = (req, res) => {
-  User.findOne({ email: req.body.email })
+  const { email, password } = req.body;
+  console.log(email, password);
+  User.findOne({ email: email })
     .then((data) => {
       if (data != null) {
         logger.error(
-          `[post/registration]Error occured while registration ${req.body.email}`
+          `[post/registration]Error occured while registration ${email}`
         );
 
-        res.status(403).json({
+        return res.status(403).json({
           status: "false",
-          message: `Email: ${req.body.email} is already taken`,
+          message: `Email: ${email} is already taken`,
         });
-      } else {
+      }
+      bcrypt.hash(password, 12).then((hashedPassword) => {
+        //hashing password
         const user = new User({
           firstName: req.body.firstName,
           lastName: req.body.lastName,
-          email: req.body.email,
-          password: req.body.password,
+          email: email,
+          password: hashedPassword,
         });
 
         user
           .save()
           .then((data) => {
-            res.status(201).json({
+            return res.status(201).json({
               status: "true",
               message: "Registration successfull",
               data: data,
@@ -137,17 +166,17 @@ const registration = (req, res) => {
               "[post/registration]Error occured while registration",
               err.message
             );
-            res.status(500).json({
+            return res.status(500).json({
               status: "false",
-              message: "Error occured while saving the record" + err.message,
+              message: "Error occured while saving the record " + err.message,
             });
           });
-      }
+      });
     })
     .catch((err) => {
       res.status(500).json({
         status: "false",
-        message: "Error occured while registration" + err.message,
+        message: "Error occured while registration " + err.message,
       });
     });
 };

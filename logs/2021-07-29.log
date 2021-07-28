@@ -107,3 +107,94 @@
 2021-07-28T20:54:17.872Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-28T20:54:40.545Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.0.246.41:27017
 2021-07-28T20:55:01.749Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T20:55:25.081Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T20:55:27.512Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:00:59.365Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:01:20.752Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:11:33.443Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:12:05.314Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.0.246.41:27017
+2021-07-28T21:12:06.502Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:12:34.576Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:12:36.797Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:12:59.848Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:13:01.118Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:13:31.609Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:13:48.265Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:13:50.228Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:18:28.042Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:18:29.997Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:19:16.172Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:19:17.357Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:20:34.661Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:20:36.423Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:21:27.992Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:21:40.190Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:22:54.556Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:23:22.164Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.0.246.41:27017
+2021-07-28T21:23:23.374Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:24:19.612Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:24:31.176Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:25:40.499Z [31merror[39m: 	Middleware[registration]
+2021-07-28T21:25:50.452Z [31merror[39m: 	[post/login]Invalid email or password ecom@gmail.com
+2021-07-28T21:26:32.826Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:26:34.308Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:29:11.880Z [31merror[39m: 	[post/login]Invalid email or password ecom@gmail.com
+2021-07-28T21:29:56.727Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:30:18.732Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:30:28.191Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:32:44.418Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:33:00.311Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:33:21.830Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.0.246.41:27017
+2021-07-28T21:33:23.043Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:33:41.602Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:33:42.856Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:35:36.347Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:35:53.343Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:35:54.567Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:36:14.200Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:36:15.453Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:36:59.298Z [31merror[39m: 	[post/login]Invalid email or password ecom@gmail.com
+2021-07-28T21:37:08.780Z [31merror[39m: 	[post/registration]Error occured while registration ecom@gmail.com
+2021-07-28T21:37:08.796Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-28T21:39:44.129Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:39:45.539Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:39:52.631Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:39:53.973Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:40:04.896Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:40:06.095Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:40:21.832Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:40:23.083Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:41:14.778Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:41:17.616Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:41:39.148Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.0.246.41:27017
+2021-07-28T21:41:40.350Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:41:50.050Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:41:51.217Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:42:43.763Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:42:45.414Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:43:30.865Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:43:42.651Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:44:57.048Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-28T21:45:36.756Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:45:49.209Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:46:18.519Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-28T21:47:35.733Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:47:37.211Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:47:44.992Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:47:46.281Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:47:56.491Z [31merror[39m: 	[post/login]Invalid email or password ecom@gmail.com
+2021-07-28T21:47:56.494Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-28T21:47:56.496Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-28T21:48:32.574Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:48:33.820Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:49:26.159Z [31merror[39m: 	[post/login]Invalid email or password ecom@gmail.com
+2021-07-28T21:51:09.579Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:51:11.290Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:53:14.383Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:53:15.900Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:53:52.934Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:53:54.172Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:54:03.068Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:54:24.599Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:54:25.227Z [31merror[39m: 	[post/login]Invalid email or password ecom@gmail.com
+2021-07-28T21:54:30.722Z [31merror[39m: 	[post/login]Invalid email  ecom@gmasil.com
