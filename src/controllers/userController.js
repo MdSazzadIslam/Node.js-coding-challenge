@@ -7,21 +7,21 @@ require("dotenv").config();
 
 const getUsers = (req, res) => {
   let limit = req.query.limit;
-  let page = req.query.limit;
-  //let age = Math.max(0, req.query.age);
+  let page = req.query.page;
+
   if (typeof limit !== "undefined") {
-    limit = parseInt(req.query.limit);
+    limit = parseInt(limit);
   } else {
     limit = 20;
   }
 
   if (typeof page !== "undefined") {
-    page = parseInt(req.query.page);
+    page = parseInt(page);
   } else {
     page = 1;
   }
 
-  let offset = parseInt(req.query.page - 1) * parseInt(req.query.limit); // For page 1, the skip is: (1 - 1) * 20 => 0 * 20 = 0
+  let offset = parseInt(page - 1) * parseInt(limit); // For page 1, the skip is: (1 - 1) * 20 => 0 * 20 = 0
 
   User.find({})
     .sort({ updatedAt: "desc" })

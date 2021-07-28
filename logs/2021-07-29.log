@@ -198,3 +198,8 @@
 2021-07-28T21:54:24.599Z [32minfo[39m: 	Successfully connected to database
 2021-07-28T21:54:25.227Z [31merror[39m: 	[post/login]Invalid email or password ecom@gmail.com
 2021-07-28T21:54:30.722Z [31merror[39m: 	[post/login]Invalid email  ecom@gmasil.com
+2021-07-28T21:56:22.541Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T21:56:24.854Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T21:56:52.867Z [31merror[39m: 	[post/login]Invalid email  ecom@gmasil.com
+2021-07-28T22:00:21.755Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:00:24.117Z [32minfo[39m: 	Successfully connected to database
