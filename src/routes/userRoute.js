@@ -19,7 +19,7 @@ const verifyToken = require("../middlewares/verifyToken");
 router.get("/", verifyToken, getUsers);
 router.get("/:id", verifyToken, getUser);
 router.post("/login", login);
-router.put(
+router.post(
   "/registration",
   [registrationRules(), validateRegistration],
   registration

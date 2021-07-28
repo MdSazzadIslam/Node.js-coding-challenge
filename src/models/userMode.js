@@ -5,12 +5,10 @@ const UserSchema = new mongoose.Schema(
     firstName: {
       type: String,
       required: [true, "First name is required"],
-      match: [/^[a-zA-Z]+$/, "is invalid"],
     },
     lastName: {
       type: String,
       required: [true, "Last name is required"],
-      match: [/^[a-zA-Z]+$/, "is invalid"],
     },
     gender: {
       type: String,
@@ -25,6 +23,9 @@ const UserSchema = new mongoose.Schema(
     },
 
     password: { type: String, required: [true, "Password is required"] },
+    picture: {
+      type: String,
+    },
     address: {
       street: {
         number: Number,
@@ -36,7 +37,6 @@ const UserSchema = new mongoose.Schema(
       postcode: { type: String },
     },
 
-    roles: [{ type: mongoose.Schema.Types.ObjectId, ref: "Role" }],
     varified: { type: Boolean, deafult: true }, //default is true for this demo project purpose
   },
   { timestamps: true }

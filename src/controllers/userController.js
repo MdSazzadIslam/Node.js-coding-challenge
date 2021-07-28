@@ -35,7 +35,7 @@ const getUsers = (req, res) => {
         err.message
       );
       res.status(500).json({
-        status: "false",
+        status: false,
         message: "Error occured while retriving all the records" + err.message,
       });
     });
@@ -75,14 +75,14 @@ const getUser = (req, res) => {
 };
 
 const login = (req, res) => {
-  const todo = new User({
+  const user = new User({
     firstName: req.body.firstName,
     lastName: req.body.lastName,
     email: req.body.email,
     password: req.body.password,
   });
 
-  todo
+  user
     .save()
     .then((data) => {
       res.status(201).json({
@@ -104,43 +104,50 @@ const login = (req, res) => {
 };
 
 const registration = (req, res) => {
-  const { id } = req.params;
-  if (typeof id !== "string") {
-    logger.error(`[put/updateUser] invalid id expected string ${id}`);
-    return res
-      .status(400)
-      .json({ status: "false", message: "invalid 'text' expected string" });
-  }
-
-  User.findByIdAndUpdate(id, req.body)
+  User.findOne({ email: req.body.email })
     .then((data) => {
-      if (!data) {
+      if (data != null) {
         logger.error(
-          "[put/updateUser]Can not update the record with id" + `${id}}`,
-          err.message
+          `[post/registration]Error occured while registration ${req.body.email}`
         );
 
-        res.status(404).send({
+        res.status(403).json({
           status: "false",
-          message: `Can not update the record with id ${id}`,
+          message: `Email: ${req.body.email} is already taken`,
         });
       } else {
-        res
-          .status(200)
-          .json({ status: "true", message: "Record updated successfully" });
+        const user = new User({
+          firstName: req.body.firstName,
+          lastName: req.body.lastName,
+          email: req.body.email,
+          password: req.body.password,
+        });
+
+        user
+          .save()
+          .then((data) => {
+            res.status(201).json({
+              status: "true",
+              message: "Registration successfull",
+              data: data,
+            });
+          })
+          .catch((err) => {
+            logger.error(
+              "[post/registration]Error occured while registration",
+              err.message
+            );
+            res.status(500).json({
+              status: "false",
+              message: "Error occured while saving the record" + err.message,
+            });
+          });
       }
     })
     .catch((err) => {
-      logger.error(
-        "[put/updateUser]Error occured while updating the record",
-        err.message
-      );
-
       res.status(500).json({
         status: "false",
-        message:
-          `Error occured while updating the record with id ${id} ` +
-          err.message,
+        message: "Error occured while registration" + err.message,
       });
     });
 };
