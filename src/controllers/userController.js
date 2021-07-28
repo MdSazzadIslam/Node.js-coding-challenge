@@ -23,13 +23,16 @@ const getUsers = (req, res) => {
 
   let offset = parseInt(page - 1) * parseInt(limit); // For page 1, the skip is: (1 - 1) * 20 => 0 * 20 = 0
 
-  User.find({})
-    .sort({ updatedAt: "desc" })
-    .skip(Number(offset))
-    .limit(Number(limit))
-    .exec()
+  return Promise.all([
+    User.find({})
+      .sort({ updatedAt: "desc" })
+      .skip(Number(offset))
+      .limit(Number(limit))
+      .exec(),
+    User.countDocuments().exec(),
+  ])
     .then((data) => {
-      res.status(200).json(data);
+      res.status(200).json({ users: data[0], count: data[1], page, limit });
     })
     .catch((err) => {
       logger.error(
@@ -52,7 +55,7 @@ const getUser = (req, res) => {
       .json({ status: "false", message: "invalid 'text' expected string" });
   }
 
-  User.findById({ id })
+  User.findById(id)
     .exec()
     .then((data) => {
       if (!data) {

@@ -203,3 +203,28 @@
 2021-07-28T21:56:52.867Z [31merror[39m: 	[post/login]Invalid email  ecom@gmasil.com
 2021-07-28T22:00:21.755Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-28T22:00:24.117Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:00:31.786Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:00:33.041Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:03:32.472Z [31merror[39m: 	[get/getUser/:id]Error occured while retriving the record 
+2021-07-28T22:04:51.230Z [31merror[39m: 	[get/getUser/:id]Error occured while retriving the record 
+2021-07-28T22:05:51.904Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:05:53.591Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:06:25.533Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:06:26.756Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:09:55.593Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:09:57.267Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:10:03.296Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:10:04.527Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:13:12.828Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:13:25.569Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:15:31.348Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:15:33.035Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:16:16.953Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:16:18.176Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:17:43.113Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:17:45.051Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:17:57.482Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:17:58.717Z [32minfo[39m: 	Successfully connected to database
+2021-07-28T22:22:23.700Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-28T22:22:47.035Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.0.246.41:27017
+2021-07-28T22:22:48.214Z [32minfo[39m: 	Successfully connected to database
