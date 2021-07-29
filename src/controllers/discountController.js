@@ -80,7 +80,7 @@ const getDiscount = (req, res) => {
 
 const createDiscount = (req, res) => {
   const { productId, categoryId, subCategoryId } = req.body;
-  console.log(productId, categoryId, subCategoryId);
+
   if (
     typeof productId === undefined ||
     typeof categoryId === undefined ||

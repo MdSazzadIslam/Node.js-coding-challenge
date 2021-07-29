@@ -53,6 +53,13 @@ const discountRules = () => {
   ];
 };
 
+const orderRules = () => {
+  return [
+    check("code", "Product code is required").not().isEmpty(),
+    check("totalAmt", "Amount is required").not().isEmpty(),
+  ];
+};
+
 const validate = (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
@@ -74,4 +81,5 @@ module.exports = {
   productRules,
   discountRules,
   validate,
+  orderRules,
 };

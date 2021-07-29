@@ -27,7 +27,7 @@ const OrderSchema = new mongoose.Schema(
 
     totalQty: {
       type: Number,
-      default: 0,
+      default: 1, //Since user will input three filed product code , userId and final amount that's why defaul is one
       required: [true, "Quantity is required"],
     },
 
@@ -43,7 +43,7 @@ const OrderSchema = new mongoose.Schema(
         },
         qty: {
           type: Number,
-          default: 0,
+          default: 1, //Since user will input three filed product code , userId and final amount that's why defaul is one
           required: [true, "Quantity is required"],
         },
         price: {

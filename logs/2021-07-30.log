@@ -112,3 +112,412 @@
 2021-07-29T19:44:07.392Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-29T19:44:08.625Z [32minfo[39m: 	Successfully connected to database
 2021-07-29T19:44:25.630Z [31merror[39m: 	[post/createDiscount]Date already exists
+2021-07-29T19:47:41.010Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:47:43.536Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:59:11.028Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:59:12.359Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:59:31.564Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:59:40.819Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:59:41.830Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:04:03.424Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:04:04.656Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:04:13.780Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:04:34.783Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:05:39.093Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:05:40.280Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:06:01.998Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:06:02.932Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:06:26.348Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:06:37.384Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:09:58.704Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:10:00.996Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:11:45.821Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:11:47.181Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:14:37.871Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:14:39.183Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:19:52.050Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:19:53.495Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:22:56.624Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:22:58.219Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:23:42.798Z [31merror[39m: 	Middleware Error
+2021-07-29T20:26:05.911Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:26:08.908Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:26:25.618Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:26:26.590Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:26:46.021Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:26:47.042Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:27:03.676Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:27:03.780Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:27:03.794Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:27:18.003Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:27:21.493Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:27:22.666Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:27:22.764Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:27:22.766Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:28:09.406Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:28:10.371Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:34:34.565Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:34:36.550Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:36:09.496Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:38:06.730Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:38:07.968Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:38:10.957Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:38:10.974Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:38:10.976Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:38:23.029Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:38:24.002Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:38:26.306Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:38:26.327Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:38:26.330Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:38:38.851Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:38:39.881Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:38:52.596Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:38:53.620Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:38:54.974Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-29T20:38:54.993Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:38:54.995Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:39:36.574Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:40:06.976Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:40:07.992Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:40:10.563Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-29T20:40:10.587Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:40:10.589Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:40:34.338Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:40:35.315Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:40:46.849Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-29T20:40:46.878Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:40:46.881Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:41:17.619Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:41:18.566Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:41:22.137Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:41:43.575Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T20:41:44.693Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:45:49.165Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:46:00.378Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:46:02.919Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:46:03.929Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:46:12.343Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-29T20:46:12.464Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:46:12.466Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:47:07.659Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:47:20.556Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:47:25.576Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-29T20:47:25.702Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:47:25.704Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:47:52.389Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:47:53.339Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:47:57.366Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-29T20:47:57.528Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:47:57.530Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:48:19.561Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:48:23.163Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:48:30.826Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-29T20:48:30.950Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T20:48:30.952Z [31merror[39m: 	Unhandled Rejection Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2021-07-29T20:48:47.142Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:48:48.191Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:48:53.301Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:48:54.279Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T20:50:33.173Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T20:50:35.440Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:21:37.325Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:21:38.587Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:26:35.038Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:26:47.377Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:27:00.263Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:27:01.212Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:28:22.253Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:28:24.158Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:28:33.624Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T21:29:55.764Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:29:58.790Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:30:07.557Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T21:30:54.196Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:30:55.176Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:31:09.875Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:31:10.855Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:31:31.597Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:31:32.562Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:31:45.479Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T21:32:27.293Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:32:28.536Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:32:30.754Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T21:32:53.001Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:33:03.988Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:33:06.979Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T21:39:40.663Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:39:57.929Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T21:40:03.048Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T21:40:03.950Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:40:04.529Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T21:40:36.414Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:40:37.421Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:40:44.172Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T21:41:08.990Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:41:10.035Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:41:20.263Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:41:21.198Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:41:24.176Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T21:43:13.446Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:43:14.567Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:44:19.706Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:44:30.874Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:45:01.768Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:45:02.718Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:45:06.311Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T21:48:39.286Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:48:51.648Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:48:55.703Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:48:56.625Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:49:18.338Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:49:19.289Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:49:25.894Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:49:26.868Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:49:52.584Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:49:53.829Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:50:10.841Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T21:50:46.383Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:50:47.367Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:51:07.239Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:51:08.266Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:51:15.925Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:51:16.881Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:53:17.633Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:53:19.902Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T21:53:32.023Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T21:54:06.615Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T21:54:07.571Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:00:44.962Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:01:07.666Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T22:01:07.999Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T22:01:18.000Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:01:18.994Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:01:22.279Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T22:02:08.440Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:02:22.423Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:02:23.359Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:02:32.052Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T22:03:37.216Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:03:59.845Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T22:04:10.779Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:04:28.699Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T22:11:51.996Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:11:54.775Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:12:24.211Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:12:45.634Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T22:12:48.958Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T22:13:05.647Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:13:06.691Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:13:09.416Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T22:16:20.725Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:16:21.944Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:17:13.196Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:17:14.189Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:17:17.779Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:17:18.785Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:17:22.705Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:17:23.859Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:17:29.952Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T22:21:17.880Z [31merror[39m: 	[post/createOrder]Discount not found for this product lv-5-4600H
+2021-07-29T22:22:34.559Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:22:36.686Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:22:38.896Z [31merror[39m: 	[post/createOrder]Discount not found for this product lv-5-4600H
+2021-07-29T22:23:25.739Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:23:26.675Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:23:29.999Z [31merror[39m: 	[post/createOrder]Discount not found for this product lv-5-4600H
+2021-07-29T22:25:41.515Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:25:44.675Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:25:49.607Z [31merror[39m: 	[post/createOrder]Discount not found for this product lv-5-4600H
+2021-07-29T22:26:56.579Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:26:59.403Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:26:59.979Z [31merror[39m: 	[post/createOrder]Discount not found for this product lv-5-4600H
+2021-07-29T22:27:03.075Z [31merror[39m: 	[post/createOrder]Discount not found for this product lv-5-4600H
+2021-07-29T22:27:25.405Z [31merror[39m: 	[post/createOrder]Discount not found for this product 14-5410
+2021-07-29T22:29:28.642Z [31merror[39m: 	Middleware Error
+2021-07-29T22:30:52.645Z [31merror[39m: 	[post/createOrder]Discount not found for this product lv-5-4600H
+2021-07-29T22:33:53.610Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:34:05.552Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:34:07.301Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T22:39:04.847Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:39:07.411Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:39:16.602Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T22:40:39.056Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T22:42:14.197Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:42:16.165Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:42:18.272Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T22:43:12.349Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:43:13.440Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:45:41.849Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:45:43.160Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:46:03.920Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T22:46:23.056Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T22:47:20.135Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:47:31.406Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:49:07.658Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:49:10.286Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:49:21.326Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T22:49:47.666Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:50:09.135Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T22:50:11.427Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:50:43.130Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T22:50:47.395Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:50:48.367Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:51:04.313Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T22:52:36.602Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:52:46.584Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:52:47.526Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:53:27.867Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:53:39.951Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:53:40.507Z [31merror[39m: 	[post/createOrder]Discount not found for this product M21
+2021-07-29T22:55:08.314Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:55:10.165Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:55:43.505Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:55:44.517Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T22:58:56.431Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T22:58:58.036Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:00:57.601Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:01:19.642Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T23:01:41.007Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T23:01:41.872Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:04:01.768Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:04:03.374Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:04:29.988Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:04:30.980Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:05:52.856Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:05:54.247Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:05:59.590Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:06:00.526Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:08:25.755Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:08:28.438Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:09:11.160Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:09:12.094Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:09:35.101Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:09:52.279Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:11:15.751Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:11:18.692Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:13:12.274Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:13:22.250Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:13:24.071Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:13:27.239Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:13:28.262Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:13:37.031Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:14:15.183Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:15:18.429Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:15:19.583Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:16:56.803Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:17:22.960Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:17:24.180Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:17:37.550Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:19:57.772Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:19:59.070Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:20:14.430Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:20:27.842Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:20:49.345Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T23:20:50.235Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:21:20.064Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:21:22.035Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:21:35.562Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:22:34.044Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:22:46.076Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:23:01.170Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:23:02.150Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:23:09.776Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:23:47.715Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:23:50.684Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:24:27.406Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:24:28.376Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:25:07.060Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:25:08.483Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:25:13.343Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:25:59.879Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:26:00.856Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:26:06.350Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:26:26.130Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:26:39.660Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:26:40.638Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:26:44.187Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T23:29:56.708Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:29:59.014Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:30:03.256Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:30:13.786Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:30:14.780Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:30:20.289Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:30:35.456Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:30:36.459Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:30:42.370Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:31:37.186Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:31:45.913Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:32:02.036Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:32:03.572Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:32:04.209Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T23:34:09.746Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:34:12.276Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:34:18.829Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:34:45.804Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:34:56.889Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:34:57.654Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:35:56.942Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:35:58.885Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:36:03.935Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:36:45.648Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:36:46.583Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:36:48.631Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:37:25.443Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:37:26.550Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:37:35.778Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:38:51.052Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:38:52.990Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:39:08.695Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T23:39:37.068Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:39:43.777Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:39:44.746Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:39:49.752Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:40:39.907Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:40:51.464Z [31merror[39m: 	[post/createOrder]Error occured while saving the record
+2021-07-29T23:41:01.435Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T23:41:02.532Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:41:06.041Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:41:38.017Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:42:09.460Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T23:42:10.498Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:42:13.622Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:42:31.421Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:42:32.422Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:42:34.257Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:42:44.533Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:42:55.573Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:43:17.576Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:43:18.712Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:43:23.281Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:43:25.632Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:43:34.030Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:43:35.029Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:43:47.252Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T23:44:32.567Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:44:34.488Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:44:38.303Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T23:48:40.471Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:48:42.781Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:49:35.683Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:49:36.630Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:49:54.422Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:49:55.598Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:50:05.527Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T23:50:37.839Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:50:52.950Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:50:53.899Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:50:59.467Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:52:06.132Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:52:07.562Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:52:13.771Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T23:52:31.682Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:52:32.720Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:52:36.177Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-29T23:52:55.526Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:52:56.607Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:53:09.964Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:53:10.998Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:53:33.525Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:53:39.575Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:53:58.255Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:53:59.250Z [32minfo[39m: 	Successfully connected to database
