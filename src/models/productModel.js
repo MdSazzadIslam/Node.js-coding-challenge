@@ -49,9 +49,15 @@ const ProductSchema = new mongoose.Schema(
       default: 0,
     },
 
+    currency: {
+      type: String,
+      enum: ["TAKA", "DOLLAR", "EURO", "RUPEE"],
+      default: "TAKA",
+    },
+
     userId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Product",
+      ref: "User",
     },
   },
   { timestamps: true }

@@ -433,3 +433,43 @@
 2021-07-29T01:37:25.020Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-29T01:37:36.534Z [32minfo[39m: 	Successfully connected to database
 2021-07-29T01:37:38.084Z [31merror[39m: 	[post/createSubCategory]Error occured while saving the record
+2021-07-29T01:38:25.701Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T01:38:28.403Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T01:38:30.911Z [31merror[39m: 	[post/createSubCategory]Error occured while saving the record
+2021-07-29T01:38:32.362Z [31merror[39m: 	[post/createSubCategory]Error occured while saving the record
+2021-07-29T13:15:44.524Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:15:50.202Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:23:51.674Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:23:53.052Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:40:46.056Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:40:47.536Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:41:49.651Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:41:50.945Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:51:38.766Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-29T13:52:53.611Z [31merror[39m: 	[post/createProduct]Error occured while saving the record
+2021-07-29T13:53:28.127Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:53:30.747Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:55:32.727Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:55:44.258Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:56:11.639Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:56:12.658Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:56:37.364Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:56:40.432Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:57:01.481Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:57:22.943Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 65.2.99.243:27017
+2021-07-29T13:57:24.067Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:57:31.977Z [31merror[39m: 	[post/createProduct]Error occured while saving the record
+2021-07-29T13:57:58.977Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:58:00.150Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T13:58:11.458Z [31merror[39m: 	[post/createProduct]Error occured while saving the record
+2021-07-29T13:59:25.014Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:59:45.483Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T13:59:46.390Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T14:01:56.631Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T14:01:57.887Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T14:02:09.160Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T14:02:10.127Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T14:19:17.459Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T14:19:28.707Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T14:23:29.375Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T14:23:30.835Z [32minfo[39m: 	Successfully connected to database

@@ -83,6 +83,7 @@ const createProduct = (req, res) => {
     code: req.body.code,
     categoryId: req.body.categoryId,
     subCategoryId: req.body.subCategoryId,
+    brand: req.body.brand,
     description: req.body.description,
     qty: req.body.qty,
     price: req.body.price,

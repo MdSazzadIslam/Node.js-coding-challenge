@@ -13,15 +13,23 @@ const {
 const {
   registrationRules,
   validateRegistration,
+  productRules,
+  validateProduct,
 } = require("../middlewares/validator");
 const verifyToken = require("../middlewares/verifyToken");
 
-router.get("/", verifyToken, getProducts);
-router.get("/:id", verifyToken, getProduct);
-router.post("/create", createProduct);
+router.get("/", getProducts);
+router.get("/:id", getProduct);
+router.post(
+  "/create",
+  verifyToken,
+  [(productRules(), validateProduct)],
+  createProduct
+);
 router.post(
   "/update/:id",
-  [registrationRules(), validateRegistration],
+  verifyToken,
+  [(registrationRules(), validateRegistration)],
   updateProduct
 );
 router.delete("/delete/:id", verifyToken, deleteProduct);
