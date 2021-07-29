@@ -3,14 +3,16 @@ const mongoose = require("mongoose");
 const DiscountSchema = new mongoose.Schema(
   {
     discount: {
-      type: Decimal,
+      type: Number,
       required: [true, "Discount percentage is required"],
     },
     startDate: {
       type: Date,
+      required: [true, "Start date is required"],
     },
     endDate: {
       type: Date,
+      required: [true, "End date is required"],
     },
     productId: {
       type: mongoose.Schema.Types.ObjectId,

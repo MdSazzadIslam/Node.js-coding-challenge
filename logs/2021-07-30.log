@@ -1,0 +1,114 @@
+2021-07-29T18:02:41.872Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:02:43.252Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:03:28.870Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:03:39.848Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:04:29.814Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T18:05:49.686Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T18:07:02.642Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:07:25.159Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-29T18:07:26.073Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:10:12.292Z [31merror[39m: 	Middleware[registration]
+2021-07-29T18:10:30.346Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:10:43.417Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:13:09.754Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:13:10.915Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:13:14.521Z [31merror[39m: 	Middleware[registration]
+2021-07-29T18:26:03.486Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:26:04.741Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:26:33.281Z [31merror[39m: 	Middleware[registration]
+2021-07-29T18:27:03.738Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T18:28:00.581Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:28:02.141Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:32:39.361Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:32:41.652Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:32:53.333Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:32:54.341Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:33:11.174Z [31merror[39m: 	Middleware Error
+2021-07-29T18:33:44.054Z [31merror[39m: 	Middleware Error
+2021-07-29T18:34:21.436Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:34:23.046Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:42:13.917Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:42:15.378Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:43:47.393Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:43:48.616Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:43:51.311Z [31merror[39m: 	[post/createDiscount] At least select Productid, CategoryId or SubCategoryId
+2021-07-29T18:44:38.371Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:44:39.404Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:44:40.581Z [31merror[39m: 	[post/createDiscount] At least select Productid, CategoryId or SubCategoryId
+2021-07-29T18:46:11.427Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:46:12.538Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:46:17.068Z [31merror[39m: 	[post/createDiscount] At least select Productid, CategoryId or SubCategoryId
+2021-07-29T18:46:29.908Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:46:30.861Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:46:38.913Z [31merror[39m: 	[post/createDiscount] At least select Productid, CategoryId or SubCategoryId
+2021-07-29T18:47:01.980Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:47:02.947Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:47:13.828Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:47:14.970Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:49:21.936Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:49:23.292Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:50:01.260Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:50:02.253Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:50:08.270Z [31merror[39m: 	[post/createDiscount] At least select Productid, CategoryId or SubCategoryId
+2021-07-29T18:50:22.476Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:50:24.503Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T18:51:09.970Z [31merror[39m: 	[post/createDiscount] At least select ProductId, CategoryId or SubCategoryId
+2021-07-29T18:51:41.230Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:51:48.547Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T18:51:49.534Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:10:04.269Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:10:10.137Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:10:11.089Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:11:15.950Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:11:17.598Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:12:30.778Z [31merror[39m: 	[post/createDiscount] At least select one Product || Category || SubCategory
+2021-07-29T19:12:47.249Z [31merror[39m: 	[post/createDiscount] At least select one Product || Category || SubCategory
+2021-07-29T19:12:52.178Z [31merror[39m: 	[post/createDiscount] At least select one Product || Category || SubCategory
+2021-07-29T19:13:44.414Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:13:55.703Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:14:25.220Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:14:26.171Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:14:31.562Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T19:14:50.323Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:14:52.500Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:15:16.870Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:15:17.908Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:15:19.717Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T19:15:50.528Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:15:51.652Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:16:06.532Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:16:07.534Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:16:34.604Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:16:35.570Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:16:38.434Z [31merror[39m: 	[post/createDiscount]Date already exists
+2021-07-29T19:16:52.902Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:16:54.344Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:18:59.624Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:19:10.616Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:19:11.621Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:19:16.455Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T19:22:54.524Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T19:23:02.909Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T19:23:36.401Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:23:37.776Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:23:44.761Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T19:23:56.649Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:23:57.588Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:24:00.035Z [31merror[39m: 	[post/createCategory]Error occured while saving the record
+2021-07-29T19:27:07.924Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:27:19.121Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:27:19.726Z [31merror[39m: 	[post/createDiscount]Date already exists
+2021-07-29T19:27:21.881Z [31merror[39m: 	[post/createDiscount]Date already exists
+2021-07-29T19:27:32.070Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:27:34.520Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:27:35.900Z [31merror[39m: 	[post/createDiscount]Date already exists
+2021-07-29T19:27:53.884Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:27:54.916Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:28:02.319Z [31merror[39m: 	[post/createDiscount]Date already exists
+2021-07-29T19:31:21.552Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:31:23.146Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:31:38.837Z [31merror[39m: 	[post/createDiscount]Date already exists
+2021-07-29T19:35:25.996Z [31merror[39m: 	[post/createDiscount]Date already exists
+2021-07-29T19:44:07.392Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T19:44:08.625Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T19:44:25.630Z [31merror[39m: 	[post/createDiscount]Date already exists

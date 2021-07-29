@@ -12,18 +12,15 @@ const {
 } = require("../controllers/userController");
 const {
   registrationRules,
-  validateRegistration,
+  loginRules,
+  validate,
 } = require("../middlewares/validator");
 const verifyToken = require("../middlewares/verifyToken");
 
 router.get("/", verifyToken, getUsers);
 router.get("/:id", verifyToken, getUser);
-router.post("/login", login);
-router.post(
-  "/registration",
-  [registrationRules(), validateRegistration],
-  registration
-);
+router.post("/login", [loginRules(), validate], login);
+router.post("/registration", [registrationRules(), validate], registration);
 router.delete("/delete/:id", verifyToken, deleteUser);
 router.delete("/delete", verifyToken, deleteUsers);
 module.exports = router;

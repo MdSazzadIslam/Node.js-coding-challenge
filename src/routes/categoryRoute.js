@@ -10,20 +10,18 @@ const {
   deleteCategory,
   deleteCategories,
 } = require("../controllers/categoryController");
-const {
-  registrationRules,
-  validateRegistration,
-} = require("../middlewares/validator");
+const { categoryRules, validate } = require("../middlewares/validator");
 const verifyToken = require("../middlewares/verifyToken");
 
 router.get("/", verifyToken, getCategories);
 router.get("/:id", verifyToken, getCategory);
-router.post("/create", verifyToken, createCategory);
 router.post(
-  "/update/:id",
-  [registrationRules(), validateRegistration],
-  updateCategory
+  "/create",
+  verifyToken,
+  [categoryRules(), validate],
+  createCategory
 );
+router.post("/update/:id", verifyToken, updateCategory);
 router.delete("/delete/:id", verifyToken, deleteCategory);
 router.delete("/delete", verifyToken, deleteCategories);
 module.exports = router;
