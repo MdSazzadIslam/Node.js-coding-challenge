@@ -26,7 +26,14 @@ const UserSchema = new mongoose.Schema(
     picture: {
       type: String,
     },
+    phoneNo: {
+      type: String,
+    },
     address: {
+      location: {
+        latitude: String,
+        longitude: String,
+      },
       street: {
         number: Number,
         name: String,
@@ -35,6 +42,11 @@ const UserSchema = new mongoose.Schema(
       state: { type: String },
       country: { type: String },
       postcode: { type: String },
+    },
+    role: {
+      type: String,
+      enum: ["ADMIN", "USER"],
+      default: "USER",
     },
 
     varified: { type: Boolean, deafult: true }, //default is true for this demo project purpose

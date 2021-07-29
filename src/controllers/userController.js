@@ -49,10 +49,10 @@ const getUser = (req, res) => {
   const { id } = req.params;
 
   if (typeof id !== "string") {
-    logger.error(`[get/getUser/:id] invalid 'text' expected string ${id}`);
+    logger.error(`[get/getUser/:id] invalid id expected string ${id}`);
     return res
       .status(400)
-      .json({ status: "false", message: "invalid 'text' expected string" });
+      .json({ status: "false", message: "invalid id expected string" });
   }
 
   User.findById(id)

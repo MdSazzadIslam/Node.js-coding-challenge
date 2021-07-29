@@ -6,12 +6,18 @@ const CategorySchema = new mongoose.Schema(
       type: String,
       required: [true, "Category is required"],
       unique: true,
-    }, //Smart phones
+    }, //Smart Phones
 
     code: {
       type: String,
       unique: true,
-    }, //sp-0001
+      required: true,
+    },
+
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Product",
+    },
   },
   { timestamps: true }
 );

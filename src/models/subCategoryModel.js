@@ -2,20 +2,25 @@ const mongoose = require("mongoose");
 
 const SubCategorySchema = new mongoose.Schema(
   {
-    categoryId: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Category",
-    },
     name: {
       type: String,
-      required: [true, "Category is required"],
+      required: [true, "name is required"],
       unique: true,
-    }, //Smart phones
+    }, //Samsung Phone
 
     code: {
       type: String,
       unique: true,
-    }, //sp-0001
+    },
+    categoryId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "CategoryId",
+    },
+
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Product",
+    },
   },
   { timestamps: true }
 );

@@ -7,6 +7,11 @@ const PaymentSchema = new mongoose.Schema(
       ref: "User",
     },
 
+    orderId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Order",
+    },
+
     status: {
       type: String, //varified
     },
