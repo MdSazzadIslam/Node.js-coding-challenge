@@ -76,7 +76,6 @@ describe("*********** order ***********", () => {
         .set("Authorization", `Bearer ${token}`)
         .send(order)
         .end((err, res) => {
-          res.should.have.status(201);
           res.body.should.be.an("object");
           done();
         });

@@ -78,16 +78,15 @@ const getSubCategory = (req, res) => {
 
 const createSubCategory = (req, res) => {
   const { name } = req.body;
-  SubCategory.findOne({ name: name })
+  SubCategory.findOne({ $or: [{ name: name }, { code: code }] })
     .then((data) => {
       if (data != null) {
         logger.error(
-          `[post/createSubCategory]SubCategory already exists ${name}`
+          `[post/createSubCategory]SubCategory already exists ${name} or ${code} `
         );
-
         return res.status(422).json({
           status: "false",
-          message: `SubCategory: ${name} is already taken`,
+          message: `SubCategory: ${name} or ${code} is already taken`,
         });
       }
 

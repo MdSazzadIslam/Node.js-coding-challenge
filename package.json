@@ -1,7 +1,7 @@
 {
-  "name": "payment-system",
+  "name": "payment-sub-system",
   "version": "1.0.0",
-  "description": "",
+  "description": "a payment sub-system. This system is supposed to check whether the given validated invoice can get a discount or not.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -42,6 +42,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.3",
     "nodemon": "^2.0.12",
+    "swagger-ui-express": "^4.1.6",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.5"
   },

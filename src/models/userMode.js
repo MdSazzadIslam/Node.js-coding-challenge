@@ -28,6 +28,7 @@ const UserSchema = new mongoose.Schema(
     },
     phoneNo: {
       type: String,
+      unique: true,
     },
     address: {
       location: {
@@ -35,7 +36,7 @@ const UserSchema = new mongoose.Schema(
         longitude: String,
       },
       street: {
-        number: Number,
+        number: String,
         name: String,
       },
       city: { type: String },

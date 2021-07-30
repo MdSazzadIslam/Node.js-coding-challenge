@@ -79,15 +79,18 @@ const getCategory = (req, res) => {
 };
 
 const createCategory = (req, res) => {
-  const { name } = req.body;
-  Category.findOne({ name: name })
+  const { name, code } = req.body;
+
+  Category.findOne({ $or: [{ name: name }, { code: code }] }) // checking whether code or name already exists in database
     .then((data) => {
       if (data != null) {
-        logger.error(`[post/createCategory]Category already exists ${name}`);
+        logger.error(
+          `[post/createCategory]Category already exists ${name} or ${code}`
+        );
 
         return res.status(422).json({
           status: "false",
-          message: `Category: ${name} is already taken`,
+          message: `Category: ${name} or ${code} is already taken`,
         });
       }
 
@@ -131,6 +134,7 @@ const createCategory = (req, res) => {
 
 const updateCategory = (req, res) => {
   const { id } = req.params;
+  console.log(req.body, id);
   if (typeof id !== "string") {
     logger.error(`[put/updateCategory] invalid id expected string ${id}`);
     return res
@@ -140,25 +144,26 @@ const updateCategory = (req, res) => {
 
   Category.findByIdAndUpdate(id, req.body)
     .then((data) => {
+      console.log(data);
       if (!data) {
         logger.error(
-          "[put/updateCategory]Can not update the record with id" + `${id}}`,
-          err.message
+          "[put/updateCategory]Can not update the record with id" + `${id}}`
         );
 
         res.status(404).send({
           status: "false",
-          message: `Can not update the record with id ${id}`,
+          message: `Can not update the record with id ${id}. Please check id ${id}`,
         });
       } else {
-        res
-          .status(200)
-          .json({ status: "true", message: "Record updated successfully" });
+        res.status(200).json({
+          status: "true",
+          message: "Record updated successfully",
+        });
       }
     })
     .catch((err) => {
       logger.error(
-        "[put/updateCategory]Error occured while updating the record",
+        "[put/updateCategory]Error occured while updating the record ",
         err.message
       );
 

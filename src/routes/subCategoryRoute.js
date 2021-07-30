@@ -13,8 +13,8 @@ const {
 const { subcategoryRules, validate } = require("../middlewares/validator");
 const verifyToken = require("../middlewares/verifyToken");
 
-router.get("/", verifyToken, getSubCategories);
-router.get("/:id", verifyToken, getSubCategory);
+router.get("/", getSubCategories);
+router.get("/:id", getSubCategory);
 router.post(
   "/create",
   verifyToken,

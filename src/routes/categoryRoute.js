@@ -13,15 +13,15 @@ const {
 const { categoryRules, validate } = require("../middlewares/validator");
 const verifyToken = require("../middlewares/verifyToken");
 
-router.get("/", verifyToken, getCategories);
-router.get("/:id", verifyToken, getCategory);
+router.get("/", getCategories);
+router.get("/:id", getCategory);
 router.post(
   "/create",
-  verifyToken,
+
   [categoryRules(), validate],
   createCategory
 );
-router.post("/update/:id", verifyToken, updateCategory);
+router.put("/update/:id", updateCategory);
 router.delete("/delete/:id", verifyToken, deleteCategory);
 router.delete("/delete", verifyToken, deleteCategories);
 module.exports = router;
