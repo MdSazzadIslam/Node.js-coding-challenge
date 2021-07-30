@@ -14,7 +14,7 @@ const OrderSchema = new mongoose.Schema(
       ref: "User",
     },
 
-    orderStatus: {
+    Status: {
       type: Number,
       default: ORDER_STATUS[0],
     },

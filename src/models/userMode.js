@@ -41,7 +41,7 @@ const UserSchema = new mongoose.Schema(
       city: { type: String },
       state: { type: String },
       country: { type: String },
-      postcode: { type: String },
+      postCode: { type: String },
     },
     role: {
       type: String,

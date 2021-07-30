@@ -28,6 +28,11 @@ const DiscountSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "SubCategory",
     },
+
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
   },
   { timestamps: true }
 );

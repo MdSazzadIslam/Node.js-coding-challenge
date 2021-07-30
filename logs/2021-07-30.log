@@ -521,3 +521,14 @@
 2021-07-29T23:53:39.575Z [32minfo[39m: 	Successfully connected to database
 2021-07-29T23:53:58.255Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-29T23:53:59.250Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:54:14.455Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-29T23:54:25.805Z [32minfo[39m: 	Successfully connected to database
+2021-07-29T23:55:06.315Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:57:19.403Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-29T23:57:33.539Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-29T23:58:27.326Z [31merror[39m: 	[post/createOrder]product has a discount
+2021-07-30T00:36:43.316Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T00:37:05.994Z [31merror[39m: 	Error while connecting to database:  connect ETIMEDOUT 3.7.243.141:27017
+2021-07-30T00:37:06.951Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T00:48:00.396Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T00:48:01.616Z [32minfo[39m: 	Successfully connected to database
