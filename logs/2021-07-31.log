@@ -345,3 +345,50 @@
 2021-07-30T23:02:31.334Z [32minfo[39m: 	Successfully connected to database
 2021-07-30T23:03:14.388Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-30T23:03:19.469Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:05:42.345Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:05:45.286Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:08:38.844Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:08:40.447Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:08:55.065Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:08:56.111Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:09:25.254Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:09:26.534Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:09:36.930Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:09:37.950Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:10:20.528Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:10:21.665Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:10:30.482Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:10:31.543Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:10:46.111Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:10:47.266Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:10:50.544Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:10:52.696Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:11:09.959Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:11:11.113Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:12:58.437Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:13:00.205Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:13:08.789Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:13:09.802Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:16:25.790Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:16:27.256Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:18:09.530Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:18:16.363Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:18:17.618Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:19:54.297Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:19:58.424Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:25:01.522Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:25:02.778Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:25:17.261Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:25:18.223Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:28:50.853Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:28:53.141Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:32:08.112Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:32:09.570Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:33:15.924Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:33:18.282Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:36:22.473Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:36:24.659Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:37:42.834Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:37:44.239Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:37:49.658Z [31merror[39m: 	[put/updateSubCategory]Error occured while updating the record
+2021-07-30T23:37:57.913Z [31merror[39m: 	[put/updateSubCategory]Error occured while updating the record

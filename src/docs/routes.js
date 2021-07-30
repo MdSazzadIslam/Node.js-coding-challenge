@@ -7,6 +7,11 @@ const getCategory = require("./category/getCategory");
 const createCategory = require("./category/createCategory");
 const updateCategory = require("./category/updateCategory");
 
+const getSubCategories = require("./subCategory/getSubCategories");
+const getSubCategory = require("./subCategory/getSubCategory");
+const createSubCategory = require("./subCategory/createSubCategory");
+const updateSubCategory = require("./subCategory/updateSubCategory");
+
 module.exports = {
   paths: {
     "/api/v1/ecom/user/login": {
@@ -35,6 +40,19 @@ module.exports = {
     },
     "/api/v1/ecom/category/update/{id}": {
       ...updateCategory,
+    },
+
+    "/api/v1/ecom/subcategory": {
+      ...getSubCategories,
+    },
+    "/api/v1/ecom/subcategory/{id}": {
+      ...getSubCategory,
+    },
+    "/api/v1/ecom/subcategory/create": {
+      ...createSubCategory,
+    },
+    "/api/v1/ecom/subcategory/update/{id}": {
+      ...updateSubCategory,
     },
   },
 };

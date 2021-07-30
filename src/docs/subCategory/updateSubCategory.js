@@ -1,8 +1,8 @@
 module.exports = {
   put: {
-    tags: ["Category operations"],
-    description: "Update category",
-    operationId: "updateCategory",
+    tags: ["SubCategory operations"],
+    description: "Update subCategory",
+    operationId: "updateSubCategory",
     parameters: [
       {
         name: "id",
@@ -18,17 +18,17 @@ module.exports = {
       content: {
         "application/json": {
           schema: {
-            $ref: "#/components/schemas/Category",
+            $ref: "#/components/schemas/SubCategory",
           },
         },
       },
     },
     responses: {
       200: {
-        description: "Category updated successfully",
+        description: "SubCategory updated successfully",
       },
       404: {
-        description: "Category id not found",
+        description: "SubCategory id not found",
       },
       500: {
         description: "Server error",

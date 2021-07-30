@@ -157,6 +157,26 @@ module.exports = {
         },
       },
 
+      SubCategory: {
+        type: "object",
+        properties: {
+          name: {
+            type: "string",
+            description: "Product sub Catgory name",
+            example: "Sony Tv",
+          },
+          code: {
+            type: "string",
+            description: "Product code",
+            example: "st-0001",
+          },
+          categoryId: {
+            type: "string",
+            description: "Category Id",
+            example: "610204e89ac51e02887498e6",
+          },
+        },
+      },
       Error: {
         type: "object",
         properties: {
