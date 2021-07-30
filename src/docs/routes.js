@@ -3,6 +3,7 @@ const login = require("./user/login");
 const getUsers = require("./user/getUsers");
 const getUser = require("./user/getUser");
 const getCategories = require("./category/getCategories");
+const getCategory = require("./category/getCategory");
 const createCategory = require("./category/createCategory");
 const updateCategory = require("./category/updateCategory");
 
@@ -22,12 +23,15 @@ module.exports = {
     "/api/v1/ecom/user/{id}": {
       ...getUser,
     },
-    "/api/v1/ecom/category/create": {
-      ...createCategory,
-    },
 
     "/api/v1/ecom/category": {
       ...getCategories,
+    },
+    "/api/v1/ecom/category/{id}": {
+      ...getCategory,
+    },
+    "/api/v1/ecom/category/create": {
+      ...createCategory,
     },
     "/api/v1/ecom/category/update/{id}": {
       ...updateCategory,

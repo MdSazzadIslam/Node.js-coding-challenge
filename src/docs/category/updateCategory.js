@@ -10,7 +10,7 @@ module.exports = {
         schema: {
           $ref: "#/components/schemas/id",
         },
-
+        required: true,
         description: "Id of todo to be updated",
       },
     ],

@@ -332,3 +332,16 @@
 2021-07-30T22:56:57.441Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-30T22:57:00.677Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-30T22:57:01.643Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T22:59:32.399Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T22:59:34.088Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:00:49.403Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:00:50.818Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:01:30.670Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:01:31.694Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:01:42.657Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:01:43.711Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:01:54.485Z [31merror[39m: 	[put/updateCategory]Can not update the record with id6104681799dd5134b48d202d}
+2021-07-30T23:02:28.321Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:02:31.334Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T23:03:14.388Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T23:03:19.469Z [32minfo[39m: 	Successfully connected to database

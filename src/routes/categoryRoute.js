@@ -17,8 +17,8 @@ router.get("/", getCategories);
 router.get("/:id", getCategory);
 router.post(
   "/create",
-
-  [categoryRules(), validate],
+  verifyToken,
+  [(categoryRules(), validate)],
   createCategory
 );
 router.put("/update/:id", updateCategory);
