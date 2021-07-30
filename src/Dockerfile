@@ -1,8 +1,7 @@
-FROM node:14-alpine
-
-WORKDIR /backend
-
-COPY package.json package-lock.json ./
+FROM node:10
+COPY . /src
+COPY  package.json  /
+WORKDIR /src
 RUN npm install
-
-CMD ["npm", "start"]
+EXPOSE 5000
+CMD npm start
