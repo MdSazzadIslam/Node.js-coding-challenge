@@ -87,7 +87,6 @@ const createOrder = (req, res) => {
   today = yyyy + "-" + mm + "-" + dd;
   Product.findOne({ code: code }) //first, I am going to findout whethere the product exists or not
     .then((product) => {
-      console.log(product);
       if (product != null) {
         // if exists then I am going to check that product has a discount or not
 
@@ -97,7 +96,6 @@ const createOrder = (req, res) => {
           $or: [{ startDate: today }, { endDate: today }],
         })
           .then((discount) => {
-            console.log("First Step", discount, product._id, today);
             if (discount != null) {
               logger.error("[post/createOrder]product has a discount");
               return res
@@ -110,7 +108,6 @@ const createOrder = (req, res) => {
               subCategoryId: product.subCategoryId,
               $or: [{ startDate: today }, { endDate: today }],
             }).then((discount) => {
-              console.log("2nd Step", discount, product.subCategoryId);
               if (discount != null) {
                 logger.error("[post/createOrder]product has a discount");
                 return res
@@ -122,7 +119,6 @@ const createOrder = (req, res) => {
                 categoryId: product.categoryId,
                 $or: [{ startDate: today }, { endDate: today }],
               }).then((discount) => {
-                console.log("3rd Step", discount, product.categoryId);
                 if (discount != null) {
                   logger.error("[post/createOrder]product has a discount");
                   return res

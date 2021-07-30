@@ -77,21 +77,46 @@ const getSubCategory = (req, res) => {
 };
 
 const createSubCategory = (req, res) => {
-  const subCategory = new SubCategory({
-    name: req.body.name,
-    code: req.body.code,
-    categoryId: req.body.categoryId,
-    userId: req.userId,
-  });
-
-  subCategory
-    .save()
+  const { name } = req.body;
+  SubCategory.findOne({ name: name })
     .then((data) => {
-      res.status(201).json({
-        status: "true",
-        message: "Record saved successfully",
-        data: data,
+      if (data != null) {
+        logger.error(
+          `[post/createSubCategory]SubCategory already exists ${name}`
+        );
+
+        return res.status(422).json({
+          status: "false",
+          message: `SubCategory: ${name} is already taken`,
+        });
+      }
+
+      const subCategory = new SubCategory({
+        name: name,
+        code: req.body.code,
+        categoryId: req.body.categoryId,
+        userId: req.userId,
       });
+
+      subCategory
+        .save()
+        .then((data) => {
+          res.status(201).json({
+            status: "true",
+            message: "Record saved successfully",
+            data: data,
+          });
+        })
+        .catch((err) => {
+          logger.error(
+            "[post/createSubCategory]Error occured while saving the record",
+            err.message
+          );
+          res.status(500).json({
+            status: "false",
+            message: "Error occured while saving the record " + err.message,
+          });
+        });
     })
     .catch((err) => {
       logger.error(

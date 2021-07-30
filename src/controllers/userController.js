@@ -141,7 +141,7 @@ const registration = (req, res) => {
           `[post/registration]Error occured while registration ${email}`
         );
 
-        return res.status(403).json({
+        return res.status(422).json({
           status: "false",
           message: `Email: ${email} is already taken`,
         });

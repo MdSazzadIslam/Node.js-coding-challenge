@@ -534,3 +534,274 @@
 2021-07-30T00:48:01.616Z [32minfo[39m: 	Successfully connected to database
 2021-07-30T01:11:50.254Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
 2021-07-30T01:11:52.297Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T11:15:13.723Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T11:15:14.185Z [31merror[39m: 	Uncaught Exception AssertionError: expected {} to have property 'token'
+2021-07-30T12:44:06.291Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T12:44:09.151Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T12:44:10.013Z [31merror[39m: 	Uncaught Exception TypeError: Assignment to constant variable.
+2021-07-30T12:45:50.869Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T12:45:52.165Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T12:45:52.756Z [31merror[39m: 	Uncaught Exception TypeError: Assignment to constant variable.
+2021-07-30T12:46:11.747Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T12:46:21.881Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T12:46:21.917Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T12:52:15.802Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T12:52:17.854Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T12:57:31.384Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T12:57:33.531Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T12:57:34.180Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 200
+2021-07-30T13:01:01.300Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:01:02.974Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:01:03.564Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 200
+2021-07-30T13:03:23.654Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:03:24.981Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:03:25.589Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 200
+2021-07-30T13:06:00.892Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:06:10.985Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 200
+2021-07-30T13:06:18.360Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:06:19.473Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:06:20.054Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 200
+2021-07-30T13:07:38.233Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:07:41.054Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:07:42.255Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (status, message, ...) } to contain keys 'token', and 'user'
+2021-07-30T13:08:39.903Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:08:49.972Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:08:50.002Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:08:54.981Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:08:56.087Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:08:57.422Z [31merror[39m: 	Middleware Error
+2021-07-30T13:08:57.449Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 500
+2021-07-30T13:10:07.164Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:10:17.247Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:10:17.276Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:10:25.473Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:10:26.717Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:11:29.632Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:11:31.171Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:11:32.435Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:11:32.449Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (status, message) } to have property 'errors'
+2021-07-30T13:12:34.130Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:12:36.425Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:12:37.732Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:16:41.645Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:16:43.346Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:16:44.032Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:16:44.065Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T13:17:12.472Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:17:13.610Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:17:14.902Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:17:14.944Z [31merror[39m: 	Uncaught Exception TypeError: Cannot read property '_id' of undefined
+2021-07-30T13:19:47.034Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:19:57.145Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:19:57.176Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:21:18.269Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:21:19.699Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:21:20.875Z [31merror[39m: 	Uncaught Exception ReferenceError: req is not defined
+2021-07-30T13:21:39.796Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:21:40.961Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:21:41.666Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:21:41.712Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T13:23:15.698Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:23:17.133Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:23:17.821Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:23:17.856Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T13:23:33.567Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:23:34.702Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:23:35.393Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:23:35.423Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T13:25:20.792Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:25:22.262Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:25:23.602Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:39:41.073Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:39:51.173Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:39:51.208Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:40:01.869Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:40:03.046Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:40:04.297Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:40:04.509Z [31merror[39m: 	Uncaught Exception TypeError: Cannot read property 'should' of undefined
+2021-07-30T13:41:09.945Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:41:11.398Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:41:12.082Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:41:12.128Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T13:41:41.750Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:41:42.863Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:41:43.566Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:41:43.612Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T13:42:29.236Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:42:39.339Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:42:39.364Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:44:05.574Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:44:15.659Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:44:15.684Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:44:21.253Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:44:22.373Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:44:23.715Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:44:23.877Z [31merror[39m: 	Uncaught Exception TypeError: Cannot read property 'should' of undefined
+2021-07-30T13:48:12.624Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:48:22.720Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:48:22.746Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:48:29.007Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:48:30.213Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:48:30.883Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:48:30.895Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T13:48:53.051Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:48:54.164Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:48:55.447Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:48:55.611Z [31merror[39m: 	Uncaught Exception TypeError: Cannot read property 'should' of undefined
+2021-07-30T13:50:34.357Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:50:35.912Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:50:36.625Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:50:36.638Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T13:51:00.761Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:51:01.909Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:51:03.182Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T13:51:03.344Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (users, count, ...) } to be an array
+2021-07-30T13:52:04.814Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:52:14.908Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:52:14.942Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:52:19.079Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:52:29.193Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T13:52:29.222Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T13:52:36.801Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T13:52:37.939Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T13:52:39.237Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T14:09:49.182Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:09:51.094Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:09:51.672Z [31merror[39m: 	Uncaught Exception TypeError: Cannot read property 'have' of undefined
+2021-07-30T14:10:50.759Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:10:52.314Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:10:53.598Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T14:10:53.633Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T14:19:19.295Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:19:22.470Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:19:23.183Z [31merror[39m: 	Middleware Error
+2021-07-30T14:19:23.204Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 500
+2021-07-30T14:20:06.605Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:20:07.724Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:20:08.458Z [31merror[39m: 	Middleware Error
+2021-07-30T14:20:08.465Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (message) } to have property 'false'
+2021-07-30T14:20:24.062Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:20:26.255Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:20:26.990Z [31merror[39m: 	Middleware Error
+2021-07-30T14:20:27.009Z [31merror[39m: 	Middleware Error
+2021-07-30T14:20:27.024Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:22:04.803Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:22:14.878Z [31merror[39m: 	[post/login]Error occured while login 
+2021-07-30T14:22:14.907Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T14:22:28.444Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:22:29.825Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:22:30.572Z [31merror[39m: 	Middleware Error
+2021-07-30T14:22:30.593Z [31merror[39m: 	Middleware Error
+2021-07-30T14:22:30.610Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:24:01.278Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:24:02.878Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:24:03.607Z [31merror[39m: 	Middleware Error
+2021-07-30T14:24:03.622Z [31merror[39m: 	Middleware Error
+2021-07-30T14:24:03.642Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:25:35.384Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:25:45.442Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T14:25:53.352Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:25:54.455Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:25:55.184Z [31merror[39m: 	Middleware Error
+2021-07-30T14:25:55.210Z [31merror[39m: 	Middleware Error
+2021-07-30T14:25:55.224Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:27:23.603Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:27:24.993Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:27:25.754Z [31merror[39m: 	Middleware Error
+2021-07-30T14:27:25.770Z [31merror[39m: 	Middleware Error
+2021-07-30T14:27:25.788Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:29:36.026Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:29:38.463Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:29:39.208Z [31merror[39m: 	Middleware Error
+2021-07-30T14:29:39.228Z [31merror[39m: 	Middleware Error
+2021-07-30T14:29:39.245Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:33:09.988Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:33:11.733Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:33:12.310Z [31merror[39m: 	Uncaught Exception ReferenceError: userId is not defined
+2021-07-30T14:33:17.148Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:33:18.269Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:33:18.824Z [31merror[39m: 	Uncaught Exception ReferenceError: userId is not defined
+2021-07-30T14:33:23.062Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:33:33.163Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T14:33:46.085Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:33:47.175Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:33:47.759Z [31merror[39m: 	Uncaught Exception ReferenceError: userId is not defined
+2021-07-30T14:34:23.885Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:34:25.425Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:34:26.161Z [31merror[39m: 	Middleware Error
+2021-07-30T14:34:26.184Z [31merror[39m: 	Middleware Error
+2021-07-30T14:34:26.207Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:36:34.331Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:36:44.416Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T14:36:50.400Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:36:51.506Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:36:52.205Z [31merror[39m: 	Middleware Error
+2021-07-30T14:36:52.245Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:39:32.343Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:39:33.794Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:39:34.555Z [31merror[39m: 	Middleware Error
+2021-07-30T14:39:34.595Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:40:47.933Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:40:58.025Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T14:41:16.999Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:41:18.120Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:41:18.837Z [31merror[39m: 	Middleware Error
+2021-07-30T14:41:18.883Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:42:25.991Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:42:36.089Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T14:42:43.544Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:42:44.620Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:42:45.336Z [31merror[39m: 	Middleware Error
+2021-07-30T14:42:45.377Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:44:15.073Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:44:18.613Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:44:20.021Z [31merror[39m: 	Middleware Error
+2021-07-30T14:44:20.062Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:46:14.719Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:46:24.813Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T14:46:30.131Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:46:40.213Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 500
+2021-07-30T14:46:46.097Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:46:47.202Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:46:47.931Z [31merror[39m: 	Middleware Error
+2021-07-30T14:46:47.969Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500
+2021-07-30T14:48:09.941Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T14:48:12.073Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T14:48:12.796Z [31merror[39m: 	Middleware Error
+2021-07-30T14:48:13.159Z [31merror[39m: 	[post/createCategory]Category alread exists Electronics Accessories
+2021-07-30T14:48:13.752Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T14:48:13.780Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T15:58:14.486Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T15:58:16.807Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T15:58:17.541Z [31merror[39m: 	Middleware Error
+2021-07-30T15:58:17.651Z [31merror[39m: 	[post/createCategory]Category alread exists Electronics Accessories
+2021-07-30T15:58:17.673Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 422
+2021-07-30T15:58:55.936Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T15:58:57.046Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T15:58:57.909Z [31merror[39m: 	Middleware Error
+2021-07-30T15:58:58.317Z [31merror[39m: 	[post/createCategory]Category alread exists Electronics Accessories
+2021-07-30T15:58:59.648Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T16:08:10.753Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T16:11:28.075Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T16:11:29.265Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T16:11:30.052Z [31merror[39m: 	Middleware Error
+2021-07-30T16:11:30.455Z [31merror[39m: 	[post/createCategory]Category already exists Mobile Accessories
+2021-07-30T16:11:31.230Z [31merror[39m: 	Middleware Error
+2021-07-30T16:11:31.577Z [31merror[39m: 	[post/createSubCategory]SubCategory already exists I Phones
+2021-07-30T16:11:32.886Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T16:30:29.867Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T16:30:32.457Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T16:30:34.062Z [31merror[39m: 	Middleware Error
+2021-07-30T16:30:34.417Z [31merror[39m: 	[post/createCategory]Category already exists Mobile Accessories
+2021-07-30T16:30:35.263Z [31merror[39m: 	Middleware Error
+2021-07-30T16:30:36.457Z [31merror[39m: 	Middleware Error
+2021-07-30T16:30:36.763Z [31merror[39m: 	[post/createSubCategory]SubCategory already exists I Phones
+2021-07-30T16:30:38.152Z [31merror[39m: 	[post/registration]Error occured while registration test@gmail.com
+2021-07-30T16:42:03.586Z [32minfo[39m: 	⚡️[server]:  API is running at port :5000  
+2021-07-30T16:42:06.825Z [32minfo[39m: 	Successfully connected to database
+2021-07-30T16:42:07.932Z [31merror[39m: 	Middleware Error
+2021-07-30T16:42:08.286Z [31merror[39m: 	[post/createCategory]Category already exists Mobile Accessories
+2021-07-30T16:42:08.926Z [31merror[39m: 	Middleware Error
+2021-07-30T16:42:09.029Z [31merror[39m: 	[post/createOrder]Product not found, please check product code
+2021-07-30T16:42:09.997Z [31merror[39m: 	[post/createOrder]Discount not found 
+2021-07-30T16:42:10.038Z [31merror[39m: 	Uncaught Exception AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 500

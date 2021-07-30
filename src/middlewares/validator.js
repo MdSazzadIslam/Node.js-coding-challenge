@@ -19,14 +19,14 @@ const loginRules = () => {
 
 const categoryRules = () => {
   return [
-    check("name", "Name is required").not().isEmpty().isEmail(),
+    check("name", "Name is required").not().isEmpty(),
     check("code", "Code is required").not().isEmpty(),
   ];
 };
 
 const subcategoryRules = () => {
   return [
-    check("name", "Name is required").not().isEmpty().isEmail(),
+    check("name", "Name is required").not().isEmpty(),
     check("code", "Code is required").not().isEmpty(),
     check("categoryId", "CategoryId is required").not().isEmpty(),
   ];

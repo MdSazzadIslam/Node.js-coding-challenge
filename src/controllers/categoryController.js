@@ -79,20 +79,43 @@ const getCategory = (req, res) => {
 };
 
 const createCategory = (req, res) => {
-  const category = new Category({
-    name: req.body.name,
-    code: req.body.code,
-    userId: req.userId,
-  });
-
-  category
-    .save()
+  const { name } = req.body;
+  Category.findOne({ name: name })
     .then((data) => {
-      res.status(201).json({
-        status: "true",
-        message: "Record saved successfully",
-        data: data,
+      if (data != null) {
+        logger.error(`[post/createCategory]Category already exists ${name}`);
+
+        return res.status(422).json({
+          status: "false",
+          message: `Category: ${name} is already taken`,
+        });
+      }
+
+      const category = new Category({
+        name: name,
+        code: req.body.code,
+        userId: req.userId,
       });
+
+      category
+        .save()
+        .then((data) => {
+          res.status(201).json({
+            status: "true",
+            message: "Record saved successfully",
+            data: data,
+          });
+        })
+        .catch((err) => {
+          logger.error(
+            "[post/createCategory]Error occured while saving the record",
+            err.message
+          );
+          res.status(500).json({
+            status: "false",
+            message: "Error occured while saving the record " + err.message,
+          });
+        });
     })
     .catch((err) => {
       logger.error(

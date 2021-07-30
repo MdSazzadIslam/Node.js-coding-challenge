@@ -77,27 +77,49 @@ const getProduct = (req, res) => {
 };
 
 const createProduct = (req, res) => {
-  const product = new Product({
-    title: req.body.title,
-    name: req.body.name,
-    code: req.body.code,
-    categoryId: req.body.categoryId,
-    subCategoryId: req.body.subCategoryId,
-    brand: req.body.brand,
-    description: req.body.description,
-    qty: req.body.qty,
-    price: req.body.price,
-    userId: req.userId,
-  });
-
-  product
-    .save()
+  const { code } = req.body;
+  Product.findOne({ code: code })
     .then((data) => {
-      res.status(201).json({
-        status: "true",
-        message: "Record saved successfully",
-        data: data,
+      if (data != null) {
+        logger.error(`[post/createProduct]Product already exists ${code}`);
+
+        return res.status(422).json({
+          status: "false",
+          message: `Category: ${code} is already taken`,
+        });
+      }
+      const product = new Product({
+        title: req.body.title,
+        name: req.body.name,
+        code: code,
+        categoryId: req.body.categoryId,
+        subCategoryId: req.body.subCategoryId,
+        brand: req.body.brand,
+        description: req.body.description,
+        qty: req.body.qty,
+        price: req.body.price,
+        userId: req.userId,
       });
+
+      product
+        .save()
+        .then((data) => {
+          res.status(201).json({
+            status: "true",
+            message: "Record saved successfully",
+            data: data,
+          });
+        })
+        .catch((err) => {
+          logger.error(
+            "[post/createProduct]Error occured while saving the record",
+            err.message
+          );
+          res.status(500).json({
+            status: "false",
+            message: "Error occured while saving the record " + err.message,
+          });
+        });
     })
     .catch((err) => {
       logger.error(
