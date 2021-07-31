@@ -98,7 +98,7 @@ module.exports = {
           },
         },
       },
-      RegistrationInput: {
+      Registration: {
         type: "object",
         properties: {
           firstName: {
@@ -125,7 +125,7 @@ module.exports = {
         },
       },
 
-      LoginInput: {
+      Login: {
         type: "object",
         properties: {
           email: {
