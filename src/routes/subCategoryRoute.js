@@ -21,7 +21,7 @@ router.post(
   [subcategoryRules(), validate],
   createSubCategory
 );
-router.put("/update/:id", updateSubCategory);
+router.put("/update/:id", verifyToken, updateSubCategory);
 router.delete("/delete/:id", verifyToken, deleteSubCategory);
 router.delete("/delete", verifyToken, deleteSubCategories);
 module.exports = router;

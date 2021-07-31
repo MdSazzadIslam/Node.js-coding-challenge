@@ -11,7 +11,7 @@ module.exports = {
           $ref: "#/components/schemas/id",
         },
         required: true,
-        description: "A subCategory id",
+        description: "Id is required",
       },
     ],
     responses: {

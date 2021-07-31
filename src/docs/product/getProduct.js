@@ -1,8 +1,8 @@
 module.exports = {
   get: {
-    tags: ["Authentication"],
-    description: "Get a user",
-    operationId: "getUser",
+    tags: ["Product operations"],
+    description: "Get a product",
+    operationId: "getProduct",
     parameters: [
       {
         name: "id",
@@ -16,23 +16,23 @@ module.exports = {
     ],
     responses: {
       200: {
-        description: "User is obtained",
+        description: "Product is obtained",
         content: {
           "application/json": {
             schema: {
-              $ref: "#/components/schemas/User",
+              $ref: "#/components/schemas/Product",
             },
           },
         },
       },
       404: {
-        description: "User is not found",
+        description: "Product is not found",
         content: {
           "application/json": {
             schema: {
               $ref: "#/components/schemas/Error",
               example: {
-                message: "We can't find the user",
+                message: "We can't find the Product",
                 internal_code: "Invalid id",
               },
             },

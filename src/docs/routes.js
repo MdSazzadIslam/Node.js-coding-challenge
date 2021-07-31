@@ -2,6 +2,7 @@ const registration = require("./user/registration");
 const login = require("./user/login");
 const getUsers = require("./user/getUsers");
 const getUser = require("./user/getUser");
+
 const getCategories = require("./category/getCategories");
 const getCategory = require("./category/getCategory");
 const createCategory = require("./category/createCategory");
@@ -11,6 +12,11 @@ const getSubCategories = require("./subCategory/getSubCategories");
 const getSubCategory = require("./subCategory/getSubCategory");
 const createSubCategory = require("./subCategory/createSubCategory");
 const updateSubCategory = require("./subCategory/updateSubCategory");
+
+const getProducts = require("./product/getProducts");
+const getProduct = require("./product/getProduct");
+const createProduct = require("./product/createProduct");
+const updateProduct = require("./product/updateProduct");
 
 module.exports = {
   paths: {
@@ -53,6 +59,19 @@ module.exports = {
     },
     "/api/v1/ecom/subcategory/update/{id}": {
       ...updateSubCategory,
+    },
+
+    "/api/v1/ecom/product": {
+      ...getProducts,
+    },
+    "/api/v1/ecom/product/{id}": {
+      ...getProduct,
+    },
+    "/api/v1/ecom/product/create": {
+      ...createProduct,
+    },
+    "/api/v1/ecom/product/update/{id}": {
+      ...updateProduct,
     },
   },
 };

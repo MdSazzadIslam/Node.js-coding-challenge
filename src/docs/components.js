@@ -177,6 +177,84 @@ module.exports = {
           },
         },
       },
+      Product: {
+        type: "object",
+        properties: {
+          title: {
+            type: "string",
+            description: "Product name",
+            example: "POCO X3 Pro - 8 GB RAM/128 GB ROM",
+          },
+          name: {
+            type: "string",
+            description: "Product title",
+            example: "POCO X3 Pro",
+          },
+          code: {
+            type: "string",
+            description: "Product code",
+            example: "pxp-0001",
+          },
+
+          categoryId: {
+            type: "string",
+            description: "Category Id",
+            example: "610204bc9ac51e02887498e4",
+          },
+
+          subCategoryId: {
+            type: "string",
+            description: "Category Id",
+            example: "610206f0c42a6c0ad8eedb93",
+          },
+
+          brand: {
+            type: "string",
+            description: "Product brand",
+            example: "Pocco",
+          },
+
+          description: {
+            type: "string",
+            description: "Product description",
+            example: "Product details of POCO X3 Pro - 8 GB RAM/128 GB ROM",
+          },
+
+          qty: {
+            type: "string",
+            description: "Product quantity",
+            example: "10",
+          },
+          price: {
+            type: "number",
+            description: "Product price",
+            example: "10",
+          },
+          currency: {
+            type: "string",
+            description: "Product currency",
+            example: "[TAKA, DOLLAR, EURO]",
+          },
+          image: {
+            type: "object",
+            properties: {
+              large: {
+                type: "string",
+                description: "Product large image",
+              },
+              medium: {
+                type: "string",
+                description: "Product medium image",
+              },
+              thumbnail: {
+                type: "string",
+                description: "Product thumbnail",
+              },
+            },
+          },
+        },
+      },
+
       Error: {
         type: "object",
         properties: {

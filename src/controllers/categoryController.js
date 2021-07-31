@@ -134,7 +134,7 @@ const createCategory = (req, res) => {
 
 const updateCategory = (req, res) => {
   const { id } = req.params;
-  console.log(req.body, id);
+
   if (typeof id !== "string") {
     logger.error(`[put/updateCategory] invalid id expected string ${id}`);
     return res

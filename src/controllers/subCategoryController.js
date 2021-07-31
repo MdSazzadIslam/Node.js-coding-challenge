@@ -131,7 +131,7 @@ const createSubCategory = (req, res) => {
 
 const updateSubCategory = (req, res) => {
   const { id } = req.params;
-  console.log(id, req.body);
+
   if (typeof id !== "string") {
     logger.error(
       `[put/updatupdateSubCategoryeCategory] invalid id expected string ${id}`
