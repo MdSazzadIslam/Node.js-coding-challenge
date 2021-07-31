@@ -29,13 +29,11 @@ const getDiscounts = (req, res) => {
     Discount.countDocuments().exec(),
   ])
     .then((data) => {
-      res
-        .status(200)
-        .json({ categories: data[0], count: data[1], page, limit });
+      res.status(200).json({ discounts: data[0], count: data[1], page, limit });
     })
     .catch((err) => {
       logger.error(
-        "[get/getCategories]Error occured while retriving all the records ",
+        "[get/getDiscounts]Error occured while retriving all the records ",
         err.message
       );
       res.status(500).json({
@@ -48,7 +46,7 @@ const getDiscount = (req, res) => {
   const { id } = req.params;
 
   if (typeof id !== "string") {
-    logger.error(`[get/getCategory/:id] invalid id expected string ${id}`);
+    logger.error(`[get/getDiscounts/:id] invalid id expected string ${id}`);
     return res
       .status(400)
       .json({ status: "false", message: "invalid id expected string" });
@@ -68,7 +66,7 @@ const getDiscount = (req, res) => {
     })
     .catch((err) => {
       logger.error(
-        "[get/getCategory/:id]Error occured while retriving the record ",
+        "[get/getDiscounts/:id]Error occured while retriving the record ",
         err.message
       );
       res.status(500).json({
@@ -99,10 +97,10 @@ const createDiscount = (req, res) => {
     discount: req.body.discount,
     startDate: req.body.startDate,
     endDate: req.body.endDate,
-    productId: productId,
-    categoryId: categoryId,
-    subCategoryId: subCategoryId,
-    userId: req.userId,
+    productId: productId === "string" ? null : productId,
+    categoryId: categoryId === "string" ? null : categoryId,
+    subCategoryId: subCategoryId === "string" ? null : subCategoryId,
+    userId: req.userId ? req.userId : "6101ffc238a7981df84ed366",
   });
 
   discount

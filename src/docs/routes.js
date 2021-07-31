@@ -19,6 +19,11 @@ const getProduct = require("./product/getProduct");
 const createProduct = require("./product/createProduct");
 const updateProduct = require("./product/updateProduct");
 
+const getDiscounts = require("./discount/getDiscounts");
+const getDiscount = require("./discount/getDiscount");
+const createDiscount = require("./discount/createDiscount");
+const updateDiscount = require("./discount/updateDiscount");
+
 module.exports = {
   paths: {
     "/api/v1/ecom/user/login": {
@@ -77,6 +82,19 @@ module.exports = {
     },
     "/api/v1/ecom/product/update/{id}": {
       ...updateProduct,
+    },
+
+    "/api/v1/ecom/discount": {
+      ...getDiscounts,
+    },
+    "/api/v1/ecom/discount/{id}": {
+      ...getDiscount,
+    },
+    "/api/v1/ecom/discount/create": {
+      ...createDiscount,
+    },
+    "/api/v1/ecom/discount/update/{id}": {
+      ...updateDiscount,
     },
   },
 };

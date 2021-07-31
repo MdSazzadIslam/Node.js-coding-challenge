@@ -255,6 +255,40 @@ module.exports = {
         },
       },
 
+      Discount: {
+        type: "object",
+        properties: {
+          discount: {
+            type: "number",
+            description:
+              "Discount percentage. Only number without percentage symbol.",
+            example: "3",
+          },
+          startDate: {
+            type: "date",
+            description: "Discount start date",
+            example: "2021-08-01",
+          },
+          endDate: {
+            type: "date",
+            description: "Discount end date",
+            example: "2021-08-03",
+          },
+          productId: {
+            type: "string",
+            description: "Enter product",
+          },
+          categoryId: {
+            type: "string",
+            description: "Enter categoryId",
+          },
+          subCategoryId: {
+            type: "string",
+            description: "Enter subCategoryId",
+          },
+        },
+      },
+
       Error: {
         type: "object",
         properties: {
