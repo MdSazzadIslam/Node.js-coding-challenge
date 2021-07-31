@@ -2,6 +2,7 @@ const registration = require("./user/registration");
 const login = require("./user/login");
 const getUsers = require("./user/getUsers");
 const getUser = require("./user/getUser");
+const deleteUser = require("./user/deleteUser");
 
 const getCategories = require("./category/getCategories");
 const getCategory = require("./category/getCategory");
@@ -33,6 +34,10 @@ module.exports = {
 
     "/api/v1/ecom/user/{id}": {
       ...getUser,
+    },
+
+    "/api/v1/ecom/user/delete/{id}": {
+      ...deleteUser,
     },
 
     "/api/v1/ecom/category": {

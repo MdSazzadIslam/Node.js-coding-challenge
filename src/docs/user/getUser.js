@@ -11,7 +11,7 @@ module.exports = {
           $ref: "#/components/schemas/id",
         },
         required: true,
-        description: "Id is required",
+        description: "User id is required",
       },
     ],
     responses: {
