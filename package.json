@@ -27,7 +27,8 @@
     "testing",
     "prettier",
     "mocha",
-    "chai"
+    "chai",
+    "swagger"
   ],
   "author": "",
   "license": "ISC",

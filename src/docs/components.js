@@ -289,6 +289,22 @@ module.exports = {
         },
       },
 
+      Order: {
+        type: "object",
+        properties: {
+          code: {
+            type: "string",
+            description: "Enter product code",
+            example: "lv-5-4600H",
+          },
+          totalAmt: {
+            type: "number",
+            description: "Enter total amount",
+            example: "84000",
+          },
+        },
+      },
+
       Error: {
         type: "object",
         properties: {

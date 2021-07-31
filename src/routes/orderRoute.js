@@ -16,7 +16,7 @@ const verifyToken = require("../middlewares/verifyToken");
 router.get("/", getOrders);
 router.get("/:id", getOrder);
 router.post("/create", [orderRules(), validate], createOrder);
-router.post("/update/:id", updateOrder);
+router.put("/update/:id", updateOrder);
 router.delete("/delete/:id", verifyToken, deleteOrder);
 
 module.exports = router;
